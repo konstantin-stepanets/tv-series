@@ -1,0 +1,20 @@
+<div class="paginator">
+  <div class="pages-row">
+    <ul class="pages" [ngClass]="{marginLeft: currentPage === 1, marginRight: currentPage === amount }">
+      <li *ngIf="currentPage !== 1"><a class="prevPage" (click)="doUpdateCurrentPage('prev')"><</a></li>
+      <li *ngFor="let page of pages;" [ngClass]="{active: page === currentPage}"
+        (click)="updateCurrentPage.emit(page)">
+        {{ page }}
+      </li>
+      <li *ngIf="currentPage !== amount"><a class="nextPage" (click)="doUpdateCurrentPage('next')">></a></li>
+    </ul>
+  </div>
+  <div class="pagesAmount-row">
+    <ul class="pagesAmount">
+      <li *ngFor="let amount of pagesRange" [ngClass]="{active: amount === resultsPerPage}"
+        (click)="updatedResultsPerPage.emit(amount); updateCurrentPage.emit(1)">
+        {{ amount }}
+      </li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,80 @@
+@import "../../scss/variables";
+
+.paginator {
+  margin-top: 12px;
+
+  .pages-row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .pagesAmount-row {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -18px;
+  }
+
+  .pages,
+  .pagesAmount {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+
+    li {
+      list-style: none;
+      margin-right: 12px;
+      cursor: pointer;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .pages {
+    .active,
+    li:hover {
+      background-color: $color-orange;
+      border-radius: 15px;
+      color: white;
+      padding: 2px 7px;
+      margin: -2px 6px -2px -8px;
+
+      &:last-of-type {
+        margin-right: -6px;
+      }
+    }
+
+    &.marginLeft {
+      margin-left: 20px;
+    }
+
+    &.marginRight {
+      margin-left: -20px;
+    }
+
+    .prevPage,
+    .nextPage {
+      font-weight: bold;
+    }
+  }
+
+  .pagesAmount {
+    margin-right: 5px;
+    li {
+      margin-right: 15px;
+    }
+    .active,
+    li:hover {
+      background-color: $color-orange;
+      color: white;
+      padding: 2px 7px;
+      margin: -2px 8px -2px -7px;
+
+      &:last-of-type {
+        margin: -2px -6px -2px -8px;
+      }
+    }
+  }
+}

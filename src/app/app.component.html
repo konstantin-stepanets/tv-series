@@ -1,0 +1,50 @@
+<div class="series-section">
+  <div class="series-table">
+    <form [formGroup]="seriesForm" class="row series-filters">
+      <div class="search-input col-l3">
+        <input type="text" title="Search by name" class="search" placeholder="Name" formControlName="nameControl" />
+        <span class="search-icon"></span>
+      </div>
+      <div class="genres-select col-l2">
+        <select class="genres-list" title="Search by genre" formControlName="genreControl">
+          <option selected hidden>Genre</option>
+          <option *ngFor="let genre of uniqueGenres">{{ genre }}</option>
+        </select>
+      </div>
+      <div class="genres-select col-l2">
+        <select class="genres-list" title="Search by year" formControlName="yearControl">
+          <option selected hidden>Premiere Year</option>
+          <option *ngFor="let year of uniqueYears">{{ year }}</option>
+        </select>
+      </div>
+    </form>
+    <div class="row series-table-header">
+      <div class="col-l2 col sortable {{ sortDirection.name }}" (click)="sort('name')">Name</div>
+      <div class="col-l1 col">Season</div>
+      <div class="col-l1 col">Network</div>
+      <div class="col-l1 col sortable {{ sortDirection.released }}" (click)="sort('released')">Premiere</div>
+    </div>
+    <div class="series-table-body" *ngIf="series.length; else noResults;">
+      <div class="row" *ngFor="let episode of series; trackBy: trackByFn;">
+        <div class="col-l2 col">
+          <div class="name">{{ episode.name }}</div>
+          <div class="genres">
+            <span class="genre" [ngClass]="genre | genrePipe" *ngFor="let genre of episode.genres">{{ genre }}</span>
+          </div>
+        </div>
+        <div class="col-l1 col">{{ episode.season }}</div>
+        <div class="col-l1 col">
+          <span *ngFor="let channel of episode.network; let i = index">
+            {{ i !== episode.network.length - 1 ? channel + ', ' : channel }}
+          </span>
+        </div>
+        <div class="col-l1 col">{{ episode.released }}</div>
+      </div>
+      <app-paginator [amount]="seriesSeparated.length" [currentPage]="currentPage" [resultsPerPage]="resultsPerPage"
+        (updatedResultsPerPage)="updatedResultsPerPage($event)" (updateCurrentPage)="updateCurrentPage($event)"></app-paginator>
+    </div>
+    <ng-template #noResults>
+      <div class="no-results">No results</div>
+    </ng-template>
+  </div>
+</div>

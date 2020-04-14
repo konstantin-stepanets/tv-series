@@ -1,0 +1,188 @@
+@import "../scss/variables";
+
+.series-section {
+  margin: 0 auto;
+  width: 800px;
+  min-height: 200px;
+  font-family: Arial, sans-serif;
+  background: rgb(226,229,248);
+  background: linear-gradient(90deg, rgba(226,229,248,1) 0%, rgba(248,236,251,1) 100%);
+  border: 1px solid $color-grey;
+
+  .series-filters {
+    grid-template-columns: repeat(7, 1fr)!important;
+    column-gap: 10px;
+    margin-bottom: 12px;
+
+    .search,
+    .genres-list {
+      height: 31px;
+      border: none;
+      outline: none;
+      font-size: 16px;
+      color: white;
+    }
+
+    .search-input,
+    .genres-select {
+      height: 31px;
+    }
+
+    .genres-select {
+      background-color: $color-orange;
+    }
+
+    .search-input {
+      position: relative;
+
+      .search {
+        width: calc(100% - 50px);
+        padding: 0 35px 0 15px;
+        background-color: $color-orange;
+
+        &::placeholder {
+          font-size: 16px;
+          color: white;
+        }
+      }
+
+      .search-icon {
+        display: block;
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        width: 16px;
+        height: 16px;
+        mask: url(../assets/icons/search-icon.svg) no-repeat 100% 100%;
+        mask-size: cover;
+        background-color: white;
+      }
+    }
+
+    .genres-list {
+      background: none;
+      width: 100%;
+      padding: 0 15px 0 8px;
+
+      option {
+        color: black;
+      }
+    }
+  }
+
+  .series-table {
+    margin: 50px;
+
+    .row {
+      grid-template-columns: repeat(5, 1fr);
+
+      .col {
+        padding: 7px 15px;
+      }
+    }
+
+    &-header {
+      background-color: $color-purple;
+      color: white;
+      font-size: 15px;
+
+      .sortable {
+        position: relative;
+        cursor: pointer;
+
+        &:before,
+        &:after {
+          content: '^';
+          position: absolute;
+          right: 8px;
+          font-size: 15px;
+        }
+
+        &:before {
+          top: 5px;
+        }
+
+        &:after {
+          bottom: 5px;
+          transform: rotate(180deg)
+        }
+
+        &.asc {
+          &:before {
+            top: 10px;
+          }
+          &:after {
+            content: '';
+          }
+        }
+
+        &.desc {
+          &:before {
+            content: '';
+          }
+          &:after {
+            top: 4px;
+            bottom: inherit;
+          }
+        }
+      }
+    }
+
+    &-body {
+      .row {
+        background: white;
+      }
+
+      .name {
+        font-size: 18px;
+      }
+
+      .genres {
+        display: flex;
+        align-items: center;
+        margin-top: 3px;
+        font-size: 13px;
+
+        /* Genres colors */
+        .drama-genre {
+          background-color: $color-drama;
+        }
+
+        .comedy-genre {
+          background-color: $color-comedy;
+        }
+
+        .dark-comedy-genre {
+          background-color: $color-dark-comedy
+        }
+
+        .horror-genre {
+          background-color: $color-horror;
+        }
+
+        .crime-genre {
+          background-color: $color-crime;
+        }
+
+        .default {
+          background-color: $color-grey;
+        }
+
+        .genre {
+          border-radius: 10px;
+          padding: 3px 10px;
+          margin-right: 10px;
+          color: white;
+
+          &:last-of-type {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+
+    .no-results {
+      padding: 10px;
+    }
+  }
+}

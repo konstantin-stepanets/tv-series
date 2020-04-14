@@ -1,0 +1,41 @@
+/* CSS Grid */
+.row {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  .col-l1 {
+    grid-column: span 1;
+  }
+  .col-l2 {
+    grid-column: span 2;
+  }
+  .col-l3 {
+    grid-column: span 3;
+  }
+  .col-l4 {
+    grid-column: span 4;
+  }
+  .col-l5 {
+    grid-column: span 5;
+  }
+  .col-l6 {
+    grid-column: span 6;
+  }
+  .col-l7 {
+    grid-column: span 7;
+  }
+  .col-l8 {
+    grid-column: span 8;
+  }
+  .col-l9 {
+    grid-column: span 9;
+  }
+  .col-l10 {
+    grid-column: span 10;
+  }
+  .col-l11 {
+    grid-column: span 11;
+  }
+  .col-l12 {
+    grid-column: span 12;
+  }
+}

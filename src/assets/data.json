@@ -1,0 +1,362 @@
+[
+  {
+    "id": 0,
+    "name": "Friends",
+    "season": 7,
+    "network": ["AMC", "Netflix"],
+    "released": "20.10.2019",
+    "genres": ["drama", "comedy"]
+  },
+  {
+    "id": 1,
+    "name": "Game of Thrones",
+    "season": 6,
+    "network": ["Netflix"],
+    "released": "10.11.2015",
+    "genres": ["comedy"]
+  },
+  {
+    "id": 2,
+    "name": "Stranger Things",
+    "season": 3,
+    "network": ["AMC"],
+    "released": "01.02.2014",
+    "genres": ["dark comedy", "drama", "horror"]
+  },
+  {
+    "id": 3,
+    "name": "Friends",
+    "season": 2,
+    "network": ["AMC", "Netflix"],
+    "released": "02.01.2020",
+    "genres": ["comedy"]
+  },
+  {
+    "id": 4,
+    "name": "Black Mirror",
+    "season": 7,
+    "network": ["BBC"],
+    "released": "05.12.2014",
+    "genres": ["comedy"]
+  },
+  {
+    "id": 5,
+    "name": "Walking Dead",
+    "season": 5,
+    "network": ["NBC"],
+    "released": "31.07.2002",
+    "genres": ["horror"]
+  },
+  {
+    "id": 6,
+    "name": "Stranger Things",
+    "season": 3,
+    "network": ["AMC"],
+    "released": "01.02.2014",
+    "genres": ["comedy", "drama", "horror"]
+  },
+  {
+    "id": 7,
+    "name": "Game of Thrones",
+    "season": 1,
+    "network": ["Fox", "ABC", "AMC"],
+    "released": "03.04.2001",
+    "genres": ["crime"]
+  },
+  {
+    "id": 8,
+    "name": "Friends",
+    "season": 7,
+    "network": ["AMC", "Netflix"],
+    "released": "20.10.2019",
+    "genres": ["drama", "comedy"]
+  },
+  {
+    "id": 9,
+    "name": "Game of Thrones",
+    "season": 6,
+    "network": ["Netflix"],
+    "released": "10.11.2015",
+    "genres": ["comedy"]
+  },
+  {
+    "id": 10,
+    "name": "Stranger Things",
+    "season": 3,
+    "network": ["AMC"],
+    "released": "01.02.2014",
+    "genres": ["comedy", "drama", "horror"]
+  },
+  {
+    "id": 11,
+    "name": "Friends",
+    "season": 2,
+    "network": ["AMC", "Netflix"],
+    "released": "02.01.2020",
+    "genres": ["comedy"]
+  },
+  {
+    "id": 12,
+    "name": "Black Mirror",
+    "season": 7,
+    "network": ["BBC"],
+    "released": "05.12.2014",
+    "genres": ["comedy"]
+  },
+  {
+    "id": 13,
+    "name": "Walking Dead",
+    "season": 1,
+    "network": ["NBC"],
+    "released": "31.04.2005",
+    "genres": ["horror"]
+  },
+  {
+    "id": 14,
+    "name": "Stranger Things",
+    "season": 6,
+    "network": ["ABC", "BBC"],
+    "released": "01.02.2014",
+    "genres": ["comedy", "drama", "horror"]
+  },
+  {
+    "id": 15,
+    "name": "Friends",
+    "season": 8,
+    "network": ["Fox", "Netflix"],
+    "released": "03.04.2011",
+    "genres": ["dark comedy"]
+  },
+  {
+    "id": 16,
+    "name": "Game of Thrones",
+    "season": 8,
+    "network": ["ABC", "AMC"],
+    "released": "03.04.2001",
+    "genres": ["crime", "horror"]
+  },
+  {
+    "id": 17,
+    "name": "Friends",
+    "season": 7,
+    "network": ["AMC", "Netflix"],
+    "released": "20.10.2019",
+    "genres": ["drama", "comedy"]
+  },
+  {
+    "id": 18,
+    "name": "Game of Thrones",
+    "season": 6,
+    "network": ["Netflix"],
+    "released": "10.11.2015",
+    "genres": ["comedy"]
+  },
+  {
+    "id": 19,
+    "name": "Stranger Things",
+    "season": 3,
+    "network": ["AMC"],
+    "released": "01.02.2014",
+    "genres": ["comedy", "drama", "horror"]
+  },
+  {
+    "id": 20,
+    "name": "Friends",
+    "season": 2,
+    "network": ["AMC", "Netflix"],
+    "released": "02.01.2020",
+    "genres": ["comedy"]
+  },
+  {
+    "id": 21,
+    "name": "Black Mirror",
+    "season": 7,
+    "network": ["BBC"],
+    "released": "05.12.2014",
+    "genres": ["comedy"]
+  },
+  {
+    "id": 22,
+    "name": "Walking Dead",
+    "season": 5,
+    "network": ["NBC"],
+    "released": "31.07.2002",
+    "genres": ["horror"]
+  },
+  {
+    "id": 23,
+    "name": "Stranger Things",
+    "season": 3,
+    "network": ["AMC"],
+    "released": "01.02.2014",
+    "genres": ["dark comedy", "drama", "horror"]
+  },
+  {
+    "id": 24,
+    "name": "Friends",
+    "season": 1,
+    "network": ["Fox"],
+    "released": "03.04.2001",
+    "genres": ["comedy"]
+  },
+  {
+    "id": 25,
+    "name": "Game of Thrones",
+    "season": 1,
+    "network": ["Fox", "ABC", "AMC"],
+    "released": "03.04.2001",
+    "genres": ["crime"]
+  },
+  {
+    "id": 26,
+    "name": "Friends",
+    "season": 7,
+    "network": ["AMC", "Netflix"],
+    "released": "20.10.2019",
+    "genres": ["drama", "dark comedy"]
+  },
+  {
+    "id": 27,
+    "name": "Game of Thrones",
+    "season": 6,
+    "network": ["Netflix"],
+    "released": "10.11.2015",
+    "genres": ["comedy"]
+  },
+  {
+    "id": 28,
+    "name": "Stranger Things",
+    "season": 3,
+    "network": ["AMC"],
+    "released": "01.02.2014",
+    "genres": ["comedy", "drama", "horror"]
+  },
+  {
+    "id": 29,
+    "name": "Friends",
+    "season": 2,
+    "network": ["AMC", "Netflix"],
+    "released": "02.01.2020",
+    "genres": ["comedy"]
+  },
+  {
+    "id": 30,
+    "name": "Black Mirror",
+    "season": 7,
+    "network": ["BBC"],
+    "released": "05.12.2014",
+    "genres": ["comedy"]
+  },
+  {
+    "id": 31,
+    "name": "Walking Dead",
+    "season": 5,
+    "network": ["NBC"],
+    "released": "31.07.2002",
+    "genres": ["horror"]
+  },
+  {
+    "id": 32,
+    "name": "Stranger Things",
+    "season": 3,
+    "network": ["AMC"],
+    "released": "01.02.2014",
+    "genres": ["dark comedy", "drama", "horror"]
+  },
+  {
+    "id": 33,
+    "name": "Friends",
+    "season": 1,
+    "network": ["Fox"],
+    "released": "03.04.2001",
+    "genres": ["comedy"]
+  },
+  {
+    "id": 34,
+    "name": "Game of Thrones",
+    "season": 1,
+    "network": ["Fox", "ABC", "AMC"],
+    "released": "03.04.2001",
+    "genres": ["crime"]
+  },
+  {
+    "id": 35,
+    "name": "Friends",
+    "season": 7,
+    "network": ["AMC", "Netflix"],
+    "released": "20.10.2019",
+    "genres": ["drama", "comedy"]
+  },
+  {
+    "id": 36,
+    "name": "Game of Thrones",
+    "season": 6,
+    "network": ["Netflix"],
+    "released": "10.11.2015",
+    "genres": ["comedy"]
+  },
+  {
+    "id": 37,
+    "name": "Stranger Things",
+    "season": 3,
+    "network": ["AMC"],
+    "released": "01.02.2014",
+    "genres": ["comedy", "drama", "horror"]
+  },
+  {
+    "id": 38,
+    "name": "Friends",
+    "season": 2,
+    "network": ["AMC", "Netflix"],
+    "released": "02.01.2020",
+    "genres": ["comedy"]
+  },
+  {
+    "id": 39,
+    "name": "Black Mirror",
+    "season": 7,
+    "network": ["BBC"],
+    "released": "05.12.2014",
+    "genres": ["dark comedy"]
+  },
+  {
+    "id": 40,
+    "name": "Walking Dead",
+    "season": 5,
+    "network": ["NBC"],
+    "released": "31.07.2002",
+    "genres": ["horror"]
+  },
+  {
+    "id": 41,
+    "name": "Stranger Things",
+    "season": 3,
+    "network": ["AMC"],
+    "released": "01.02.2014",
+    "genres": ["comedy", "drama", "horror"]
+  },
+  {
+    "id": 42,
+    "name": "Friends",
+    "season": 1,
+    "network": ["Fox"],
+    "released": "03.04.2001",
+    "genres": ["comedy"]
+  },
+  {
+    "id": 43,
+    "name": "Game of Thrones",
+    "season": 1,
+    "network": ["Fox", "ABC", "AMC"],
+    "released": "03.04.2001",
+    "genres": ["crime"]
+  },
+  {
+    "id": 44,
+    "name": "Friends",
+    "season": 1,
+    "network": ["Fox"],
+    "released": "03.04.2001",
+    "genres": ["comedy"]
+  }
+]
